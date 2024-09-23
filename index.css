@@ -38,51 +38,56 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5em;
+    margin-top: 4.2em;
 }
 
 .profile {
-    height: 100vh;
+    height: 50em;
     width: 50%;
     text-align: justify;
     font-size: 10px;
     display: grid;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
 }
 
 .profile img {
-    width: 35em;
-    height: 48em;
+    width: 25em;
+    height: 38em;
     border-radius: 20em 20em 0px 0px;
+    
 }
 
-.profile h1 {
-    width: 23em;
-    height: 5em;
+.nama-kelas {
+    position: relative;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-}
+    }
 
 .info {
-    border: 1px solid black;
-    height: 100vh;
-    width: 50%;
+    height: 135px;
     display: grid;
-    gap: 7em;
-    grid-template-columns: 100px 100px;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 150px 150px;
+    gap: 70px;
+    padding: 10em 10em 20em 10em;
+    background-color: #f0f0f0;
+    border: 1px solid rgb(221, 221, 221);
 }
 
-.info a {
-    height: 3em;
-    width: 180px;
+.info div {
+    height: 60px;
+    width: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: px;
+    background-color: beige;
 }
