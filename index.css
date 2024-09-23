@@ -55,7 +55,6 @@ body {
     width: 25em;
     height: 38em;
     border-radius: 20em 20em 0px 0px;
-    
 }
 
 .nama-kelas {
@@ -69,7 +68,6 @@ body {
     }
 
 .info {
-    height: 135px;
     display: grid;
     grid-template-columns: 150px 150px;
     gap: 70px;
