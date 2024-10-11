@@ -258,7 +258,6 @@ body {
 }
 
 .jadwal-pelajaran {
-    display: flex;
     padding: 20px;
     background: #ffffff; /* Latar belakang struktur */
     border-radius: 10px;
@@ -266,8 +265,8 @@ body {
     margin: 20px;
 }
 
+
 .hari {
-    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,6 +275,21 @@ body {
     flex-direction: column;
     padding: 20px;
     margin: 70px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.hari-hari {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column;
+    padding: 20px;
+    margin: 70px;
+    margin-top: 0;
     border-radius: 15px;
     border: 1px solid black;
 }
