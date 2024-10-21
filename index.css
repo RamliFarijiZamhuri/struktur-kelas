@@ -219,8 +219,18 @@ body {
     border: 1px solid black;
 }
 
-.ketua-kelas h1 {
-    color: #000000; /* Warna judul ketua kelas */
+.wakil-ketua-kelas {
+    width: 25%;
+    margin-left: 28.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
 .sekben {
