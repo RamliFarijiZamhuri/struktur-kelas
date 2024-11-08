@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>TI24 01TPLP019 REG A</title>
 </head>
 
@@ -84,7 +85,7 @@
             <div class="judul">
                 <h1>JADWAL PELAJARAN</h1>
             </div>
-        <div>
+            <div>
                 <div class="hari">
                     <div>
                         <h1>SENIN</h1>
@@ -107,8 +108,8 @@
                     <ul>
                         <p>Kalkulus 1</p>
                         <p>Logika Informatika</p>
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                     </ul>
                 </div>
             </div>
@@ -120,13 +121,43 @@
                     <ul>
                         <p>Algoritma Pemrograman</p>
                         <p>Fisika dasar</p>
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="contact" class="contact">
+        <h2><span>Kontak</span> Kami</h2>
+        <p>Jika Ingin Berlangganan Silahkan Kontak Kami, Kami Siap Menerima Anda Dengan Sepenuh Hati</p>
+        <div class="row">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.57540327964244!2d107.17452831891694!3d-6.865845913607311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e685195da5dbb5f%3A0x1fbbf0bb0f3f025e!2sCahaya%20abadi%20electronik!5e0!3m2!1sid!2sid!4v1693228430136!5m2!1sid!2sid"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            <form action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="Nama">
+                </div>
+                <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="No Hp">
+                </div>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script>
+        feather.replace()
+    </script>
 
 </body>
 

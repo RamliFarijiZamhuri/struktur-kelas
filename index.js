@@ -1,11 +1,3 @@
-// const ketuaKelas = document.getElementById("ketua-kelas")
-
-// function hello(){
-//     console.logg("hello world")
-// }
-
-// ketuaKelas.addEventListener("mouseover", hello);
-
 document.addEventListener("DOMContentLoaded", function () {
     const ketuaKelas = document.getElementById("ketua-kelas");
     const imageContainer = document.getElementById("imageContainer");
@@ -18,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         img.alt = 'Gambar ketika mouseover';
         img.style.width = '200px'; // Atur lebar gambar (opsional)
         img.style.height = 'auto'; // Atur tinggi gambar (opsional)
+        img.style.position = "absolute";
 
         // Menambahkan gambar ke kontainer
         imageContainer.appendChild(img);
