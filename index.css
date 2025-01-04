@@ -187,20 +187,37 @@ html {
     color: #fff;
 }
 
-.visi {
-    justify-content: center;
-    align-items: center;
+.plan {
+    padding: 1px 200px;
 }
 
-.visi h1 {
-    margin-top: 50px;
+.visi, .misi {
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.visi h1, .misi h1 {
+    margin-top: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.visi p {
+.visi p, .misi p {
     font-style: italic;
-    width: ;
     text-align: center;
+}
+
+.album {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.album h1 {
+    margin-top: 10px;
 }
