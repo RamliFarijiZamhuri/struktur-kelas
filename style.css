@@ -191,21 +191,24 @@ html {
     padding: 1px 200px;
 }
 
-.visi, .misi {
+.visi,
+.misi {
     margin-top: 10rem;
     justify-content: center;
     align-items: center;
     margin-bottom: 10rem;
 }
 
-.visi h1, .misi h1 {
+.visi h1,
+.misi h1 {
     margin-top: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.visi p, .misi p {
+.visi p,
+.misi p {
     font-style: italic;
     text-align: center;
 }
@@ -220,4 +223,149 @@ html {
 
 .album h1 {
     margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    width: 42%;
+    height: 600px;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.galeri {
+    background-image: url(assets/WhatsApp\ Image\ 2025-01-17\ at\ 12.27.10_250c8948.jpg);
+    margin: 80px;
+    margin-left: 320px;
+    width: 30%;
+    height: 800px;
+    background-size: 100% 100%;
+    animation: animasi 50s infinite linear;
+    box-shadow: 0 0 10px 5px black;
+}
+
+@-webkit-keyframes animasi {
+    0% {
+        background-image: url(assets/WhatsApp\ Image\ 2025-01-17\ at\ 12.27.02_56f8a8cf.jpg);
+    }
+
+    10% {
+        background-image: url(assets/WhatsApp\ Image\ 2025-01-17\ at\ 12.27.03_9161aa04.jpg);
+    }
+
+    20% {
+        background-image: url(assets/WhatsApp\ Image\ 2025-01-17\ at\ 12.27.03_ebadb5d6.jpg);
+    }
+
+    30% {
+        background-image: url(assets/WhatsApp\ Image\ 2025-01-17\ at\ 12.27.04_2e8c8420.jpg);
+    }
+
+    40% {
+        background-image: url(assets/WhatsApp\ Image\ 2025-01-17\ at\ 12.27.04_60c06ffe.jpg);
+    }
+
+    50% {
+        background-image: url(assets/WhatsApp\ Image\ 2025-01-17\ at\ 12.27.07_ae8a6364.jpg);
+    }
+
+    60% {
+        background-image: url(assets/WhatsApp\ Image\ 2025-01-17\ at\ 12.27.10_250c8948.jpg);
+    }
+
+    70% {
+        background-image: url(assets/IMG-20240910-WA0031.jpg);
+    }
+
+    80% {
+        background-image: url(assets/IMG-20240910-WA0032.jpg);
+    }
+
+    90% {
+        background-image: url(assets/IMG-20240910-WA0033.jpg);
+    }
+
+    100% {
+        background-image: url(assets/IMG-20240910-WA0035.jpg);
+    }
+}
+
+/* Contact */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--primary);
+}
+
+.contact-container {
+    background: #ffffff;
+    padding: 50px;
+    padding-left: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+.contact-container h2 {
+    margin-bottom: 100px;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+}
+
+.contact-container label {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.contact-container input:focus,
+.contact-container textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.contact-container button {
+    display: block;
+    width: 105.5%;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.contact-container button:hover {
+    background-color: #0056b3;
 }
