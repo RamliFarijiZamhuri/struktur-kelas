@@ -228,7 +228,7 @@ html {
 
 .album h1 {
     margin: 150px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -238,7 +238,7 @@ html {
 
 .container img {
     width: 42%;
-    height: 600px;
+    height: auto;
     animation: spin 5s linear infinite;
 }
 
@@ -254,10 +254,9 @@ html {
 
 .galeri {
     background-image: url(assets/WhatsApp\ Image\ 2025-01-17\ at\ 12.27.10_250c8948.jpg);
-    margin: 80px;
-    margin-left: 320px;
+    margin: 150px;
     width: 30%;
-    height: 800px;
+    height: 550px;
     background-size: 100% 100%;
     animation: animasi 50s infinite linear;
     box-shadow: 0 0 10px 5px black;
@@ -417,4 +416,26 @@ footer .credit {
 footer .credit a {
     color: var(--bg);
     font-weight: 700;
+}
+
+.desc-ketukel {
+    position: fixed;
+    width: 800px;
+    height: 500px;
+    top: 9rem;
+    left: 16.9rem;
+    color: #fff;
+    background-color: var(--primary);
+    border-radius: 30px;
+}
+
+.desc-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-content {
+    display: flex;
 }
